@@ -1,0 +1,413 @@
+/*common css for default*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #000;
+    background-color: #fff;
+    line-height: normal;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0;
+    border: 0;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 53px;
+}
+
+.HeaderBottom {
+    background-color: #222;
+}
+
+.HeaderBottom .row {
+    display: flex;
+    align-items: center;
+}
+
+.HeaderBottom .row .navigationMenu {
+    display: flex;
+    align-items: center;
+}
+
+.HeaderBottom .row .navigationMenu ul {
+    display: flex;
+    margin: 0 30px;
+}
+
+.HeaderBottom .row .navigationMenu ul li a {
+    color: #c78c06;
+    padding: 12px 40px;
+    font-size: 18px;
+}
+
+.HeaderBottom .row .main-logo {
+    margin: 16px 0;
+}
+
+.HeaderBottom .row .main-logo img {
+
+    width: 70%;
+}
+
+.HeaderBottom .row .navMenu ul li a:hover {
+    background-color: #c78c06;
+    color: black;
+}
+
+input#fname {
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    padding: 20px;
+    width: 221px;
+    height: 6px;
+}
+
+input#btn {
+    cursor: pointer;
+    font-size: 0;
+    background: url(../images/search.png) no-repeat #222;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-color: #c78c06;
+    background-position: center;
+    padding: 20px;
+}
+
+/*css for banner*/
+.banner {
+    position: relative;
+}
+
+.bannerbox {
+    position: absolute;
+    top: 59px;
+    padding: 56px 0 0 20px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-left: -20px;
+    width: 1131px;
+    height: 466px;
+}
+
+.bannerbox h1 {
+    font-size: 80px;
+    color: white;
+}
+
+.bannerbox p {
+    font-size: 14px;
+    color: white;
+    margin: 23px 0 20px 0;
+}
+
+.bannerbox h4 a {
+    background: #c78c06;
+    padding: 33px 51px;
+    position: absolute;
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+}
+
+.row {
+    display: flex;
+}
+
+/*css for aboutus section*/
+.aboutUS {
+    background-color: #ffe6ac;
+}
+
+.aboutUSright,
+.aboutUSleft {
+    width: 50%;
+}
+
+.aboutUS .row {
+    padding: 20px 0;
+}
+
+.aboutUSright {
+    margin-left: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.aboutUSright p,
+.aboutUSright h4 {
+    font-size: 14px;
+    font-weight: 500;
+    width: 95%;
+}
+
+.aboutUSright p {
+    margin: 20px 0;
+}
+
+/*css for services section*/
+.services .row {
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.digital,
+.marketing {
+    width: 49%;
+    background-color: #ffe6ac;
+    margin-top: 10px;
+}
+
+.digital {
+    margin-right: 15px;
+}
+
+.services-img img {
+    width: 100%;
+}
+
+.services-detail h5 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 20px 0;
+}
+
+.services-detail h4 a {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.services-detail h4 {
+    background-color: #222;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.services-detail {
+    margin: 10px 10px;
+}
+
+.services-detail p {
+    margin: 15px 0;
+}
+
+.video,
+.web,
+.print {
+    width: 32.5%;
+    background-color: #ffe6ac;
+    margin-top: 10px;
+}
+
+.web {
+    margin: 10px 10px 0 10px;
+}
+
+/*css for vision section*/
+.vision img {
+    width: 100%;
+}
+
+.vision {
+    position: relative;
+}
+
+.vision-detail {
+    position: absolute;
+    top: 30px;
+    width: 80%;
+}
+
+.vision-detail h5,
+.vision-detail p,
+.vision-detail a {
+    color: white;
+}
+
+.vision-detail h5 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.vision-detail p {
+    font-size: 15px;
+    font-weight: 200;
+    margin: 30px 0;
+}
+
+.vision-detail h4 a {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 48px;
+    border: solid #c78c06;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*css for team section*/
+.team .row {
+    background-color: #ffe6ac;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.team-img,
+.team-detail {
+    width: 50%;
+}
+
+.team-detail h4::after {
+    content: '';
+    background-color: #c78c06;
+    height: 2px;
+    display: block;
+}
+
+.team-detail {
+    padding: 15px 10px;
+}
+
+.team_detail h5 {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.team-detail h4 {
+    margin-top: 4px;
+}
+
+.team-detail p {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/*css for contact section */
+.contact-detail,
+.map {
+    width: 50%;
+}
+
+.contact-detail h4,
+.map h4 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input#cname,
+input#email,
+textarea#message {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.contact-detail ul {
+    margin-right: 10px;
+}
+
+.contact row {
+    margin-bottom: 10px;
+}
+
+.contact-detail label {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+textarea#message {
+    height: 150px;
+}
+
+input#sbtn {
+    cursor: pointer;
+    background-color: #222;
+    color: #c78c06;
+    padding: 2px 8px;
+    font-size: 22px;
+}
+
+.hour h4 {
+    font-size: 25px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+table,
+th,
+td {
+
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th {
+    background-color: #ffe6ac;
+    padding: 10px 0;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+td {
+    padding: 10px 10px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/*css for footer section*/
+footer {
+    background-color: #222;
+}
+
+.footer-copyright h5,
+.footer-copyright h5 a {
+    color: #c78c06;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.footer-copyright h5 a {
+    text-decoration: underline;
+    text-decoration-color: #c78c06;
+}
+
+.footer-copyright {
+    padding: 20px 0 10px 0;
+}
